@@ -14,12 +14,11 @@ NSString *settingsPath = @"/var/mobile/Library/Preferences/pw.virulent.cwc.plist
 	
 	if(enableLoudAudio) {
 		soundPath = [[NSBundle bundleWithPath:@"/Library/Application Support/ConfirmWithCena/"] pathForResource:@"Nag_Loud" ofType:@"wav"];
-		soundURL = [[NSURL alloc] initFileURLWithPath:soundPath];
 	} else {
 		soundPath = [[NSBundle bundleWithPath:@"/Library/Application Support/ConfirmWithCena/"] pathForResource:@"Nag" ofType:@"wav"];
-		soundURL = [[NSURL alloc] initFileURLWithPath:soundPath];
 	}
-    
+		soundURL = [[NSURL alloc] initFileURLWithPath:soundPath];
+
     NSString *className = NSStringFromClass([arg1 class]);
     if([className isEqual:@"SBApplicationIcon"]) {
 		audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:soundURL error:nil];
