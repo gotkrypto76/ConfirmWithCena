@@ -19,6 +19,7 @@ NSString *settingsPath = @"/var/mobile/Library/Preferences/pw.virulent.cwc.plist
 	}
 	soundURL = [[NSURL alloc] initFileURLWithPath:soundPath];
 
+    NSString *className = NSStringFromClass([arg1 class]);
     if([className isEqual:@"SBApplicationIcon"]) {
 		audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:soundURL error:nil];
 		audioPlayer.numberOfLoops = 0;
