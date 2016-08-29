@@ -1,0 +1,12 @@
+Package: pw.virulent.cwc
+Name: ConfirmWithCena
+Depends: mobilesubstrate, firmware (>= 9.0)
+Version: 1.3.3
+Architecture: iphoneos-arm
+Description: Accidentally hit delete? Don't worry! Mr. Cena has your back!
+ This Tweak lets you confirm deleting apps with John Cena. It's as simple as answering "Are you sure about that" with "Yes" or "No"! 
+ A sound will play when the alert appears as well.
+ Currently, this tweak works when you attempt to delete an app. More options may be added later through request. 
+ Options can be configured through preference panel.
+Author: Maxwell Lang <maxwlang@me.com>
+Section: Tweaks
