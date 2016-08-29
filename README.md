@@ -11,4 +11,4 @@ Send a pull request
  - My code is licensed under the MIT license. Please respect it.
  - Thanks for the SuperSlam tweak for showing me how to use activator in tweaks.
  - This tweak was concieved here: https://www.reddit.com/r/jailbreak/comments/4vk9i8/request_john_cena_are_you_sure_about_that_upon
- - Compiles successfuly against 9.0 SDKs, untested with other versions.
+ - Compiles successfuly against 9.0 SDKs, untested with other versions. (https://sdks.website/dl/iPhoneOS9.0.sdk.tbz2)
