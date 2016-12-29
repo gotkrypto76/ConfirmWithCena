@@ -6,7 +6,8 @@ Architecture: iphoneos-arm
 Description: Accidentally hit delete? Don't worry! Mr. Cena has your back!
  This Tweak lets you confirm deleting apps with John Cena. It's as simple as answering "Are you sure about that" with "Yes" or "No"! 
  A sound will play when the alert appears as well.
- Currently, this tweak works when you attempt to delete an app. More options may be added later through request. 
+ Currently, this tweak works when you attempt to delete an app.
+ ConfirmWithCena is open-source. You can find the code here: https://github.com/gotkrypto76/ConfirmWithCena
  Options can be configured through preference panel.
 Author: Maxwell Lang <maxwlang@me.com>
 Section: Tweaks
